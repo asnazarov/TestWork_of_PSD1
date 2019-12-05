@@ -22,10 +22,10 @@ header{
   font-family: 'Roboto', sans-serif;
 }
 .header_top {
-  background-color: #55AC14
+  background-color: #55AC14;
 }
 .container {
-  border:1px solid #FF8900;
+  /*border:1px solid #FF8900; */
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
@@ -68,5 +68,13 @@ header{
 .menu a{
   color: #323232;
   font-size: 21px;
-  line-height: 36px;
+  line-height: 30px;
+  border: 1.5px solid transparent;
+  margin: 0 17px;
+  padding: 0 15px;
+  transition: all .5s;
+}
+.menu a:hover{
+border-color: #55AC14;
+border-radius: 7px;
 }
