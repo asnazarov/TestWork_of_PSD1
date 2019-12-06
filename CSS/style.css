@@ -25,7 +25,7 @@ header{
   background-color: #55AC14;
 }
 .container {
-  /*border:1px solid #FF8900; */
+  border:1px solid #FF8900;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
@@ -71,7 +71,7 @@ header{
 }
 .header_qest:before{content: "\f0b1"; font-family: 'icomoon'; position: absolute; left:20px; }
 .header_content{
-  padding: 34px 0px 23px;
+  padding: 10px 0px 10px;
 }
 .header_content-inner{
   display: flex;
@@ -92,4 +92,22 @@ header{
 .menu a:hover{
 border-color: #55AC14;
 border-radius: 7px;
+}
+#animatedModal {
+  display: none;
+}
+
+
+
+
+
+/* ШАПКА ФОН*/
+
+.slider{
+  background-image: url(../img/slider-fon1.jpg);
+  background-repeat: no-repeat; /* чтобы не размножалась*/
+  background-size: cover; /* растягивать картинку*/
+  background-position: center;
+  min-height: 650px;
+
 }
