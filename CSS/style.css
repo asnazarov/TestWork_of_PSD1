@@ -38,23 +38,38 @@ header{
   padding: 5px 20px 4px 50px;
   font-size: 16px;
   letter-spacing: 0.35px; /* расстояние между буквами */
+  position: relative;
 }
 .header_contacts:after{
   content: "";
   clear: both;
   display: block;
 }
-.header_fon,
+.header_phone,
 .header_mail  {
   color: white;
   letter-spacing: 0.35px; /* расстояние между буквами */
   line-height: 45px;
+  position: relative;
+  margin-right: 17px;
 }
-.header_fon{
+.header_phone{
   padding-left: 20px;
   padding-right: 30px;
 }
-
+.header_phone:before{
+  content: "\f095";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+}
+.header_mail:before{
+  content: "\f003";
+  font-family: 'icomoon';
+  position: absolute;
+  left:-22px;
+}
+.header_qest:before{content: "\f0b1"; font-family: 'icomoon'; position: absolute; left:20px; }
 .header_content{
   padding: 34px 0px 23px;
 }
