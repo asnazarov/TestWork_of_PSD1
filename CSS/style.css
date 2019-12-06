@@ -1,5 +1,5 @@
 body {
-  border:1px solid red;
+  bor der:1px solid red;
   font-family: 'PT Serif', serif;
   font-weight: 400;
   font-size: 14px;
@@ -25,7 +25,7 @@ header{
   background-color: #55AC14;
 }
 .container {
-  border:1px solid #FF8900;
+  bo rder:1px solid #FF8900;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
@@ -109,5 +109,16 @@ border-radius: 7px;
   background-size: cover; /* растягивать картинку*/
   background-position: center;
   min-height: 650px;
+  position: relative;
+}
+#photo {position: absolute; top: 150px; left: 500px; margin: 0 auto;  }
 
+.slider_item {
+  text-align: center;
+  padding-top: 110px;
+  max-width: 665px;
+  margin: 0 auto;
+}
+.slider_title{
+text-transform: uppercase;
 }
