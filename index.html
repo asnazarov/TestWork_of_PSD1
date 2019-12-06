@@ -6,26 +6,30 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 
 
 
 <body>
+  <!--*********** НАД МЕНЮ     НАД МЕНЮ          НАД МЕНЮ     НАД МЕНЮ            НАД МЕНЮ     НАД МЕНЮ***********    -->
   <header class="header">
-
     <div class="header_top">             <!-- Над шапкой -->
       <div class="container">
         <div class="header_contacts">
           <a class="header_phone" href="tel:+79117235428">+7 (911) 723 54 28</a>
           <a class="header_mail" href="#">strange3355@mail.ru</a>
-          <a class="header_qest" href="#">Задать вопрос</a>
+          <a data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;" class="header_qest" href="#">Задать вопрос</a>
         </div>
       </div>
     </div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   -->
 
-/* 54.30 */
 
+
+
+<!--*********** МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ      МЕНЮ       ***********    -->
     <div class="header_content">       <!-- Содержание шапки  Как мы это делаем. Вдохновление. Позиция -->
       <div class="container">
         <div class="header_content-inner">
@@ -43,8 +47,78 @@
       </div>
     </div>
   </div>
-
 </header>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   -->
 
+
+
+
+<!--*********** ШАПКА ФОН     ШАПКА ФОН       ШАПКА ФОН     ШАПКА ФОН***********    -->
+<section class="slider">
+  <div class="heder_logo"><a href="#"><img src="img/logo.png" weight=350px; height=300px; alt=""></a></div>
+  <div class="container">
+    <div class="slider_inner">
+      <div class="slider_item">
+        <div class="slider_title">
+          Комплексное закрытие предприятия
+        </div>
+
+        <div class="slider_text">
+          Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+        </div>
+        <div class="slider_btn">
+          Оформить заявку
+        </div>
+
+      </div>
+      <div class="slider_item">
+        <div class="slider_title">
+          Комплексное закрытие предприятия
+        </div>
+
+        <div class="slider_text">
+          Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+        </div>
+        <div class="slider_btn">
+          Оформить заявку
+        </div>
+
+      </div>
+      <div class="slider_item">
+        <div class="slider_title">
+          Комплексное закрытие предприятия
+        </div>
+
+        <div class="slider_text">
+          Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+        </div>
+        <div class="slider_btn">
+          Оформить заявку
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="animatedModal" class="animated-modal">
+   <h2>Hello! 1.24</h2>
+   <p>This is animated content! Cool, right? 1920х497</p>
+ </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
