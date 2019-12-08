@@ -118,29 +118,29 @@ li {
 
 /* ***********ПОД ШАПКА ФОН    ПОД ШАПКА ФОН      ПОД ШАПКА ФОН    ПОД ШАПКА ФОН***********  */
 
-.about{
+.services{
   padding: 50px 0 30px;
 }
-.about_top{
+.services_top{
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
-.about_title-box {
+.services_title-box {
   max-width: 600px;
   padding-left: 100px;
   position: relative;
 }
-.about_title-box:before{
+.services_title-box:before{
   content: "";
   position: absolute;
-  width: 80px;
+  width: 90px;
   height: 3px;
   left: 0;
   background-color: #55AC14;
   top: 15px;
 }
-.about_title{
+.services_title{
   font-size: 28px;
   font-weight: 500px;
   line-height: 32px;
@@ -148,20 +148,27 @@ li {
   color: #212020;
   margin-bottom: 10px;
 }
-.about_text{
+.services_text{
   letter-spacing: 0.1px;
+  font-size: 19px;
+  font-weight: 500px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #212020;
+  margin-bottom: 10px;
 }
-.about_waste{
+.services_text ul li{ margin: 24px 0}
+.services_waste{
   border: 2px solid #55AC14;
   padding: 10px 10px;
   height: min-content;
   border-radius: 7px;
 }
-.about img {
+.services img {
 margin-bottom: -8px;
 margin-right: -6px;
 }
-.about_btn{
+.services_btn{
   color: #323232;
   font-size: 39px;
   line-height: 39px;
@@ -170,17 +177,17 @@ margin-right: -6px;
   height: min-content;
   border-radius: 7px;
 }
-.about_items{
+.services_items{
   display: flex;
   justify-content: space-between;
 }
-.about_item img{
+.services_item img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
 }
-.about_item{
+.services_item{
   max-width: 360px;
   padding: 15px 0 40px;
   position: relative;
@@ -188,7 +195,7 @@ margin-right: -6px;
   border-radius: 10px;
   box-shadow: 0px 7px 24.3px 2.7px #B4F5A9;
 }
-.about_item-title{
+.services_item-title{
   color: #210202;
   font-size: 18px;
   line-height: 24px;
@@ -196,11 +203,11 @@ margin-right: -6px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
-.about_item-text{
+.services_item-text{
   letter-spacing: 0.1px;
   padding: 0 30px 30px;
 }
-.about_item-btn a{
+.services_item-btn a{
   position: absolute;
   bottom: 35px;
   left: 20px;
@@ -208,3 +215,6 @@ margin-right: -6px;
   border-bottom: 1px solid #050505;
   color: #050505;
 }
+
+/* *********** О КОМПАНИИ       О КОМПАНИИ         О КОМПАНИИ***********    */
+.about{}
