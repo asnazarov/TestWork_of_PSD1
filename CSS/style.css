@@ -194,4 +194,9 @@ margin-right: -6px;
 }
 .about_item-text{
   letter-spacing: 0.1px;
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+.about_item-btn{
+  
 }
