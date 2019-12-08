@@ -99,26 +99,99 @@ border-radius: 7px;
 
 
 
-
-
 /* ШАПКА ФОН*/
 
 .slider{
   background-image: url(../img/slider-fon1.jpg);
-  background-repeat: no-repeat; /* чтобы не размножалась*/
+  background-repeat: no-repeat; /* чтобы не размножалась картинка*/
   background-size: cover; /* растягивать картинку*/
   background-position: center;
   min-height: 650px;
   position: relative;
 }
 #photo {position: absolute; top: 150px; left: 500px; margin: 0 auto;  }
-
-.slider_item {
-  text-align: center;
-  padding-top: 110px;
-  max-width: 665px;
-  margin: 0 auto;
+li {
+	list-style-image: url(../img/arrow.png);
 }
-.slider_title{
-text-transform: uppercase;
+
+
+
+/* ***********ПОД ШАПКА ФОН    ПОД ШАПКА ФОН      ПОД ШАПКА ФОН    ПОД ШАПКА ФОН***********  */
+
+.about{
+  padding: 50px 0 30px;
+}
+.about_top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.about_title-box {
+  max-width: 600px;
+  padding-left: 100px;
+  position: relative;
+}
+.about_title-box:before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  left: 0;
+  background-color: #55AC14;
+  top: 15px;
+}
+.about_title{
+  font-size: 28px;
+  font-weight: 500px;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;
+  color: #212020;
+  margin-bottom: 10px;
+}
+.about_text{
+  letter-spacing: 0.1px;
+}
+.about_waste{
+  border: 2px solid #55AC14;
+  padding: 10px 10px;
+  height: min-content;
+  border-radius: 7px;
+}
+.about img {
+margin-bottom: -8px;
+margin-right: -6px;
+}
+.about_btn{
+  color: #323232;
+  font-size: 39px;
+  line-height: 39px;
+  letter-spacing: 4px;
+  padding: 10px 10px;
+  height: min-content;
+  border-radius: 7px;
+}
+.about_items{
+  display: flex;
+  justify-content: space-between;
+}
+.about_item img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.about_item{
+  max-width: 360px;
+  padding: 15px 0 40px;
+}
+.about_item-title{
+  color: #210202;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.about_item-text{
+  letter-spacing: 0.1px;
 }
