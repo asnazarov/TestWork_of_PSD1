@@ -180,6 +180,7 @@ margin-right: -6px;
 .services_items{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 .services_item img{
   display: block;
@@ -217,4 +218,31 @@ margin-right: -6px;
 }
 
 /* *********** О КОМПАНИИ       О КОМПАНИИ         О КОМПАНИИ***********    */
-.about{}
+.about{
+  background-image: url(../img/about-fon1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+  background-repeat: no-repeat;
+  padding: 25px 25px;
+}
+.about_inner{
+  max-width: 545px;
+  color: black;
+  text-align: right;
+  width: 545px;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+.about_title{
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 24px;
+
+}
+.about_text{
+font-size: 18px;
+line-height: 24px;
+}
