@@ -5,9 +5,7 @@ $(function(){
 
 
 
-
-
-
+$('select').styler();
 
 
 });
