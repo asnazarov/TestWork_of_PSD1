@@ -351,3 +351,14 @@ textarea{
   background: #ffffff;
   outline: none;
   padding: 7px 7px;
+}
+.form_box-right input{
+  border: none;
+  max-width: 140px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.form_box-right input:focus{
+  border: none
+}
