@@ -367,8 +367,8 @@ textarea{
 
 /* *********** МЫ ПРОТИВ         МЫ ПРОТИВ         МЫ ПРОТИВ       МЫ ПРОТИВ         ***********    --> */
 .advantages{
-  padding: 55px 0 40px;
-  background-image: url(../img/advantages-fon.jpg);
+  padding: 50px 0 40px;
+  background-image: url(../img/advantages-fon1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   min-height: 600px;
@@ -380,22 +380,38 @@ textarea{
   color: #ffffff;
   justify-content: space-between;
 }
+.hhh{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.hhh img{
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+  display: block;
+  height: 200px;
+}
 .adv_item{
   text-align: center;
   padding: 0 20px;
 }
+
 .adv_title{
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 26px;
+  line-height: 32px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
-  padding: 60px 0 20px;
+  padding: 20px 0 20px;
+  position: relative;
 }
-.adv_title:before{
-  
-}
+
 .adv_text{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
