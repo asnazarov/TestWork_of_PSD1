@@ -250,13 +250,14 @@ line-height: 24px;
 
 
 
-/* --*********** ВОПРОС         ВОПРОС         ВОПРОС         ВОПРОС         ***********    */
+/* --*********** ОБРАТНАЯ СВЯЗТЬ         ОБРАТНАЯ СВЯЗТЬ         ОБРАТНАЯ СВЯЗТЬ       ОБРАТНАЯ СВЯЗТЬ         ***********    */
 .form_title-box{
   max-width: 600px;
   padding-left: 100px;
   position: relative;
 }
-.form_title-box:before{content: "";
+.form_title-box:before{
+content: "";
 position: absolute;
 width: 90px;
 height: 3px;
@@ -361,4 +362,43 @@ textarea{
 }
 .form_box-right input:focus{
   border: none
+}
+
+
+/* *********** МЫ ПРОТИВ         МЫ ПРОТИВ         МЫ ПРОТИВ       МЫ ПРОТИВ         ***********    --> */
+.advantages{
+  padding: 55px 0 40px;
+  background-image: url(../img/advantages-fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  background-size: cover;
+}
+
+.adv_items{
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.adv_item{
+  text-align: center;
+  padding: 0 20px;
+}
+.adv_title{
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding: 60px 0 20px;
+}
+.adv_title:before{
+  
+}
+.adv_text{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.3px;
+
 }
