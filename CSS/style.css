@@ -423,6 +423,7 @@ textarea{
 
 .news{
   padding: 40px 0 30px;
+  background-color: #f9f9f9;
 }
 .news_top{
   display: flex;
@@ -479,4 +480,17 @@ margin-right: -6px;
   padding: 10px 10px;
   height: min-content;
   border-radius: 7px;
+}
+.news_inner{
+  display: flex;
+  justify-content: space-between;
+}
+.news_slider{
+  max-width: 550px;
+  width: 100%;
+  border: 1px solid red;
+}
+.news_blog{
+  max-width: 260px;
+  width: 100%;
 }
