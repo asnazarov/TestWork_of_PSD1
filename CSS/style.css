@@ -110,7 +110,7 @@ border-radius: 7px;
   position: relative;
 }
 #photo {position: absolute; top: 150px; left: 500px; margin: 0 auto;  }
-li {
+.li1 {
 	list-style-image: url(../img/arrow.png);
 }
 
@@ -515,7 +515,7 @@ margin-right: -6px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.5px;
   margin-bottom: 15px;
-  
+
 }
 .news_slider-text{
 
