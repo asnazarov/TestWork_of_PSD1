@@ -659,3 +659,8 @@ margin-right: -6px;
   background-color: #71BB2F;
   border: none;
 }
+
+.header_qest-menu{
+  display: none;
+  font-size: 28px;
+}
