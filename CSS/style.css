@@ -603,13 +603,6 @@ margin-right: -6px;
   padding-left: 33px;
   position: relative;
 }
-/*<!--.footer_list a:before{
-  content: "\f003";
-  font-family: 'icomoon';
-  position: absolute;
-  left: 0;
-  color: #212020;
-} --> */
 .footer_mail:before{
   content: "\f003";
   font-family: 'icomoon';
@@ -647,4 +640,22 @@ margin-right: -6px;
   font-size: 16px;
   line-height: 28px;
   font-family: 'Roboto', sans-serif;
+}
+#animatedModal{
+  width: 300px;
+}
+#animatedModal input{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#animatedModal input[type="submit"]{
+  background-color: #71BB2F;
+  border: none;
 }
