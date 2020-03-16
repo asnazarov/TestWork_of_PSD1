@@ -1,2 +1,9 @@
-@import "vars";
-@import "global";
+@import "header";
+.page {
+    border: 1px solid red;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+}

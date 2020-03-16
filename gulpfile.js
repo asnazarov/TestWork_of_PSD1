@@ -5,12 +5,12 @@ let gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function() {
-    return gulp.src('app/scss/**/*.scss')
-        .pipe(sass({ outputStyle: 'compressed' })) //  {outputStyle: 'compressed'} expanded сжимает css
-        .pipe(rename({ suffix: '.min' })) // переписывает style.scss на style.min.scss
-        .pipe(autoprefixer({ // < ---  автопрефиксер
-            overrideBrowserslist: ['last 8 versions'] // < ---  автопрефиксер
-        })) // < ---  автопрефиксер
+    return gulp.src('app/scss/style.scss') // так же пробовал style заменить на **/*
+        .pipe(sass({ outputStyle: 'compressed' }))
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(autoprefixer({
+            overrideBrowserslist: ['last 8 versions']
+        }))
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({ stream: true }))
 });
@@ -48,7 +48,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('app/scss/style.scss', gulp.parallel('sass'));
+    gulp.watch('app/scss/**/*.scss', gulp.parallel('sass'));
     gulp.watch('app/*.html', gulp.parallel('html'));
     gulp.watch('app/js/*.js', gulp.parallel('js'));
 });

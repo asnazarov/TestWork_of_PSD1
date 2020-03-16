@@ -1,0 +1,73 @@
+.header {
+    font-family: "Roboto", sans-serif;
+    &__top {
+        background-color: #55ac14;
+    }
+    &__contacts {}
+    &__concats:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    &__phone {
+        color: white;
+        letter-spacing: 0.35px;
+        /* расстояние между буквами */
+        line-height: 45px;
+        position: relative;
+        margin-right: 17px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    &__phone::before {
+        content: "\f095";
+        font-family: "icomoon";
+        position: absolute;
+        left: 0;
+    }
+    &__mail {
+        color: white;
+        letter-spacing: 0.35px;
+        /* расстояние между буквами */
+        line-height: 45px;
+        position: relative;
+        margin-right: 17px;
+    }
+    &__mail::before {
+        content: "\f003";
+        font-family: "icomoon";
+        position: absolute;
+        left: -22px;
+    }
+    &__qest {
+        float: right;
+        line-height: 36px;
+        color: white;
+        background-color: #79553d;
+        padding: 5px 20px 4px 50px;
+        font-size: 16px;
+        letter-spacing: 0.35px;
+        /* расстояние между буквами */
+        position: relative;
+    }
+    &__qest::before {
+        content: "\f0b1";
+        font-family: "icomoon";
+        position: absolute;
+        left: 20px;
+    }
+    &__content {}
+    &__content-inner {}
+    &__qest-menu {}
+}
+
+.container {
+    border: 1px solid #ff8900;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu {}
+
+.icon-bars {}
