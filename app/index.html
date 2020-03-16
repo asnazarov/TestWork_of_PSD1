@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" href="css/sl ick.css"> -->
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body class="page">
@@ -29,18 +34,52 @@
                             <span class="icon-bars"></span>
                         </div>
                         <ul>
-                            <li><a href="#">ГЛАВНАЯ</a></li>
-                            <li><a href="#">Об NO WASTE</a></li>
-                            <li><a href="#">Что мы делаем</a></li>
-                            <li><a href="#">Команда</a></li>
-                            <li><a href="#">СМИ</a></li>
-                            <li><a href="#">Законодательство</a></li>
+                            <li><a class="menu__link" href="#">ГЛАВНАЯ</a></li>
+                            <li><a class="menu__link" href="#">Об NO WASTE</a></li>
+                            <li><a class="menu__link" href="#">Что мы делаем</a></li>
+                            <li><a class="menu__link" href="#">Команда</a></li>
+                            <li><a class="menu__link" href="#">СМИ</a></li>
+                            <li><a class="menu__link" href="#">Законодательство</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
+    <div id="animatedModal" class="animated-modal">
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+
+    <section class="slider">
+        <div class="container">
+            <div id="photo"><img src="img/logo.png" weight=600px; height="500px;"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- <script src="js/slick.min.js"></script> -->
+    <script src="main.js"></script>
 </body>
 
 </html>

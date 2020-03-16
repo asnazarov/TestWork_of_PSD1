@@ -47,6 +47,7 @@
         padding: 5px 20px 4px 50px;
         font-size: 16px;
         letter-spacing: 0.35px;
+        text-decoration: none;
         /* расстояние между буквами */
         position: relative;
     }
@@ -56,18 +57,70 @@
         position: absolute;
         left: 20px;
     }
-    &__content {}
-    &__content-inner {}
-    &__qest-menu {}
+    &__content {
+        padding: 10px 0px 10px;
+    }
+    &__content-inner {
+        display: flex;
+        justify-content: center;
+    }
+    &__qest-menu {
+        display: none;
+        font-size: 28px;
+    }
 }
 
 .container {
-    border: 1px solid #ff8900;
+    // border: 1px solid #ff8900;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.menu {}
+.menu {
+    &__link {
+        color: #323232;
+        font-size: 21px;
+        line-height: 30px;
+        border: 1.5px solid transparent;
+        margin: 0 17px;
+        padding: 0 15px;
+        transition: all .5s;
+        text-decoration: none;
+    }
+    &__link:hover {
+        border-color: #55AC14;
+        border-radius: 7px;
+    }
+}
+
+.menu li {
+    display: inline-block;
+}
 
 .icon-bars {}
+
+#animatedModal {
+    display: none;
+}
+
+#animatedModal {
+    width: 300px;
+}
+
+#animatedModal input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#animatedModal input[type="submit"] {
+    background-color: #71BB2F;
+    border: none;
+}

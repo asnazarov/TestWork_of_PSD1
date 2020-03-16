@@ -1,0 +1,19 @@
+.slider {
+    background-image: url(../img/slider-fon1.jpg);
+    background-repeat: no-repeat;
+    /* чтобы не размножалась картинка*/
+    background-size: cover;
+    /* растягивать картинку*/
+    background-position: center;
+    min-height: 650px;
+    position: relative;
+}
+
+.container {}
+
+#photo {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    margin: 0 auto;
+}
