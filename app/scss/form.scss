@@ -1,0 +1,120 @@
+.form {
+    &__inner {
+        // border: 1px solid red;
+        background-image: url(../img/form.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    &__content {}
+    &__title-box {
+        max-width: 600px;
+        padding-left: 100px;
+        position: relative;
+    }
+    &__title-box::before {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 3px;
+        left: 0;
+        background-color: #55AC14;
+        top: 15px;
+    }
+    &__title {
+        font-size: 28px;
+        font-weight: 500px;
+        line-height: 32px;
+        font-family: 'Roboto', sans-serif;
+        color: #212020;
+        margin-bottom: 10px;
+    }
+    &__text {
+        letter-spacing: 0.1px;
+        font-size: 19px;
+        font-weight: 500px;
+        line-height: 24px;
+        font-family: 'Roboto', sans-serif;
+        color: #212020;
+        margin-bottom: 10px;
+    }
+    &__box {
+        max-width: 745px;
+        padding-top: 45px;
+    }
+    &__box-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box-inner p {
+        line-height: 10px;
+    }
+    &__box-inner label {
+        line-height: 36px;
+        color: #212020;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    &__box-left {
+        max-width: 260px;
+        margin-left: 30px
+    }
+    &__box-right {
+        max-width: 555px;
+    }
+}
+
+.form__box-inner label,
+.form__box-inner input,
+.form__box-inner button,
+.form__box-inner select {
+    display: block;
+    width: 250px;
+    line-height: 30px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    border-radius: 7px;
+    border: 2px solid #74BC37;
+}
+
+.form_box-inner input,
+.form_box-inner select {
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 2px solid #74BC37;
+    outline: none;
+    padding: 0 7px;
+}
+
+.form_box-inner input:focus {
+    border: 2px solid green;
+    background-color: #ffffff;
+    border-radius: 7px;
+    background: #ffffff;
+}
+
+.form_box-inner textarea:focus {
+    border: 2px solid green;
+    background-color: #ffffff;
+    border-radius: 7px;
+    background: #ffffff;
+    outline: none;
+    padding: 7px 7px;
+}
+
+.form_box-right input {
+    border: none;
+    max-width: 140px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.form_box-right input:focus {
+    border: none
+}
+
+.to-send {}
