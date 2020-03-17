@@ -7,13 +7,10 @@
     background-position: center;
     min-height: 650px;
     position: relative;
-}
-
-.container {}
-
-#photo {
-    position: absolute;
-    top: 150px;
-    left: 500px;
-    margin: 0 auto;
+    &__image {
+        position: absolute;
+        top: 150px;
+        left: 500px;
+        margin: 0 auto;
+    }
 }
